@@ -24,6 +24,7 @@ public class Merging {
             merge[k++] = arr1[i++];
         while (j < n2)
             merge[k++] = arr2[j++];
+
         System.out.print("\nArray after merging: ");
         for (x = 0; x < n1 + n2; x++)
             System.out.print(merge[x] + " ");
